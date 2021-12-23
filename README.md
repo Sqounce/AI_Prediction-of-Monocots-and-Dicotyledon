@@ -1,1 +1,1 @@
-# AI_Prediction-of-monocots-and-cotyledons
+# AI_Prediction-of-monocots-and-Dicotyledon
