@@ -14,6 +14,17 @@ dataset ที่ใช้ คือ Dataset_Leaf สามารถดาวน
   * valid ...ภาพ แบ่งออกเป็น ... คลาส 
   * test  ...ภาพ แบ่งออกเป็น ... คลาส 
   
+# Set the address of the image.
+กรณีRun ใน google colab สามารถอัปโหลดโฟเดอไปไว้ใน google drive ได้เลยและทำการเชื่อมต่อ google colab กับ google drive
+ ![Screenshot (203)](https://user-images.githubusercontent.com/96648859/147382948-14e9e371-72b2-400d-9977-deab181899b8.png)
+ 
+ เมื่อเชื่อมต่อเสร็จหลังจากนั้นก็กดเข้าโฟเดอที่ชื่อว่า drive ->MyDrive ก็จะปรากฏไฟล์ต่างๆภายในdrive เลือกไฟล์ที่อัปโหลดไว้copy path มาวางใน โค้ดส่วนของdataset_URL
+ 
+ ![Screenshot (197)](https://user-images.githubusercontent.com/96648859/147383042-432a8f5b-7c2b-4810-bdf2-e40f715d15c8.png)
+
+  ส่วนกรณีรันในเครื่องโดยใช้ตัว python บน editor ต่างๆก็สามารถคัลลอกที่อยู่ของfolderมาใส่ใน dataset_url ของโค้ดได้เลย
+  ในการรันในเครื่องจะใช้ 2 ไฟล์create_model.py และ predict.py 
+  ตัว predict.pyจะใช้ในการทำการอ่านโหลดไฟล์ model ที่สร้างจาก create_model.py โมเดลที่ได้เป็น ไฟล์นามสกุล .h5
 # Dependencies
 * Numpy
 * Matplotlib
