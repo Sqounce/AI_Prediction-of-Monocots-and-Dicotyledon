@@ -23,8 +23,7 @@ dataset ที่ใช้ คือ Dataset_Leaf สามารถดาวน
 # Dependencies
 * Numpy
 * Matplotlib
-* pandas
-* 
+
 
 # Instructions
 ควรติดตั้ง
