@@ -14,6 +14,9 @@ dataset ที่ใช้ คือ Dataset_Leaf สามารถดาวน
   * valid ...ภาพ แบ่งออกเป็น ... คลาส 
   * test  ...ภาพ แบ่งออกเป็น ... คลาส 
   
+ 
+  ![Screenshot (203)](https://user-images.githubusercontent.com/96648859/147383329-c9e2e58a-fe50-4a5c-81d5-7ff3c93c8511.png)
+
 # Dependencies
 * Numpy
 * Matplotlib
